@@ -7,10 +7,20 @@ import edraakAiWorkplace from "../assets/certificates/edraak-ai-workplace.jpeg";
 import edraakAiEmploymentSpecialization from "../assets/certificates/edraak-ai-employment-specialization.jpeg";
 import edraakBeyondAi from "../assets/certificates/edraak-beyond-ai.jpeg";
 import innovegypt from "../assets/certificates/innovegypt.jpeg";
+import medsparkDigitalMarketing from "../assets/certificates/medspark-digital-marketing-healthcare.jpg";
 
-const categories = ["ALL", "AI", "INNOVATION"];
+const categories = ["ALL", "AI", "INNOVATION", "MARKETING"];
 
 const certificates = [
+  {
+    id: "medspark-digital-marketing-healthcare",
+    name: "Digital Marketing For Healthcare Professionals",
+    org: "MedSpark (accredited by ITOL)",
+    date: "8/10/2026",
+    category: "MARKETING",
+    image: medsparkDigitalMarketing,
+    verifyUrl: null,
+  },
   {
     id: "ai-employment-specialization",
     name: "Artificial Intelligence for Employment Specialization",

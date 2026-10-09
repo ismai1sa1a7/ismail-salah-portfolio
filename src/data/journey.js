@@ -3,6 +3,14 @@
 
 const journey = [
   {
+    id: "digital-marketing",
+    year: "2026",
+    title: "Digital Marketing for Healthcare Professionals",
+    org: "MedSpark",
+    description:
+      "Learned to analyze healthcare markets and competitors and to plan campaigns with the SOSTAC framework, then applied it in a full marketing plan for a fictional dental clinic.",
+  },
+  {
     id: "freelance-training",
     year: "2026",
     title: "Freelance Training",

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ExternalLink, FileSearch } from "lucide-react";
+import { ExternalLink, FileSearch, FileText } from "lucide-react";
 import Reveal from "../ui/Reveal";
 import SectionHeading from "../ui/SectionHeading";
 import PlaceholderPreview from "../ui/PlaceholderPreview";
@@ -48,6 +48,19 @@ export default function Projects() {
                     {project.demo && (
                       <Button href={project.demo} variant="ghost" icon={ExternalLink} className="text-sm">
                         Live Demo
+                      </Button>
+                    )}
+                    {project.document && (
+                      <Button
+                        href={project.document}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        variant="ghost"
+                        icon={FileText}
+                        iconPosition="left"
+                        className="text-sm"
+                      >
+                        {project.documentLabel ?? "View Document"}
                       </Button>
                     )}
                     {project.caseStudy && (

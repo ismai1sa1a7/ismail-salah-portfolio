@@ -1,4 +1,4 @@
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, FileText } from "lucide-react";
 import Modal from "../ui/Modal";
 import PlaceholderPreview from "../ui/PlaceholderPreview";
 import Tag from "../ui/Tag";
@@ -71,6 +71,18 @@ export default function ProjectCaseStudy({ project, onClose }) {
         {project.demo && (
           <Button href={project.demo} icon={ExternalLink}>
             Live Demo
+          </Button>
+        )}
+        {project.document && (
+          <Button
+            href={project.document}
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="ghost"
+            icon={FileText}
+            iconPosition="left"
+          >
+            {project.documentLabel ?? "View Document"}
           </Button>
         )}
         <Button variant="link" onClick={onClose}>

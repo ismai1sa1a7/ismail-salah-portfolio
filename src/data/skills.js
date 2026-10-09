@@ -30,6 +30,18 @@ const skills = [
     ],
   },
   {
+    id: "marketing",
+    label: "Marketing & Business",
+    items: [
+      { name: "Digital Marketing", level: "Familiar" },
+      { name: "SOSTAC Framework", level: "Familiar" },
+      { name: "Healthcare Marketing", level: "Familiar" },
+      { name: "Competitor Analysis", level: "Familiar" },
+      { name: "Social Media Marketing", level: "Familiar" },
+      { name: "Business Development", level: "Familiar" },
+    ],
+  },
+  {
     id: "other",
     label: "Other",
     items: [
