@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import { LinkedinIcon } from "../ui/icons";
 import { profile, socials } from "../../data/site";
 import Button from "../ui/Button";
@@ -131,6 +131,17 @@ export default function Hero() {
           >
             Contact Me
           </Button>
+          {profile.resumeUrl && (
+            <Button
+              href={profile.resumeUrl}
+              download="Ismail-Salah-CV.pdf"
+              variant="ghost"
+              icon={Download}
+              iconPosition="left"
+            >
+              Download CV
+            </Button>
+          )}
         </motion.div>
 
         <motion.div

@@ -52,7 +52,13 @@ export default function About() {
 
           {profile.resumeUrl && (
             <Reveal delay={0.2}>
-              <Button href={profile.resumeUrl} icon={Download} iconPosition="left" className="mt-8">
+              <Button
+                href={profile.resumeUrl}
+                download="Ismail-Salah-CV.pdf"
+                icon={Download}
+                iconPosition="left"
+                className="mt-8"
+              >
                 Download CV
               </Button>
             </Reveal>

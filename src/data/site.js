@@ -20,7 +20,7 @@ export const profile = {
     "Business Development & Marketing",
     "Open to internships",
   ],
-  resumeUrl: null, // Add a CV file URL here to enable the Download CV button.
+  resumeUrl: "/Ismail-Salah-CV.pdf", // File lives in /public.
 };
 
 export const socials = {
