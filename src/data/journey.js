@@ -11,6 +11,14 @@ const journey = [
       "Learned to analyze healthcare markets and competitors and to plan campaigns with the SOSTAC framework, then applied it in a full marketing plan for a fictional dental clinic.",
   },
   {
+    id: "nti-network-security",
+    year: "2026",
+    title: "Network Security (Cybersecurity Academy)",
+    org: "NTI",
+    description:
+      "Completed the Network Security track at the Cybersecurity Academy (undergraduate level), with 60 technical hours and 12 freelancing hours.",
+  },
+  {
     id: "freelance-training",
     year: "2026",
     title: "Freelance Training",

@@ -30,10 +30,10 @@ export const socials = {
 };
 
 export const currentlyLearning = [
-  { name: "Artificial Intelligence", note: "Core ML concepts through to applied LLM workflows" },
+  { name: "Artificial Intelligence", note: "Core ML concepts through to applied generative AI workflows" },
   { name: "Advanced Web Development", note: "Deeper into React patterns and performance" },
-  { name: "Cybersecurity", note: "Fundamentals of secure systems and networking" },
-  { name: "Freelancing", note: "Client work, proposals, and project delivery" },
+  { name: "Cybersecurity", note: "Building on NTI's Network Security track: secure systems and networking" },
+  { name: "Freelancing & Digital Marketing", note: "Client work, proposals, and campaign planning with SOSTAC" },
 ];
 
 export const services = [
