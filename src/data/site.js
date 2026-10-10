@@ -5,16 +5,20 @@ export const profile = {
   name: "Ismail Salah",
   role: "Computer Science & AI Student / Web Developer",
   tagline:
-    "I build digital experiences, solve problems, and turn ideas into real-world solutions.",
-  rotatingWords: ["Web Developer", "AI Enthusiast", "Problem Solver", "Future Software Engineer"],
-  about:
-    "I'm a Computer Science & AI student passionate about software development, artificial intelligence, technology, and solving real-world problems. I enjoy turning ideas into practical digital products and continuously improving my technical and problem-solving skills.",
+    "I build responsive web projects, explore how AI can make software more useful, and care about the business side of technology.",
+  rotatingWords: ["Web Developer", "AI Enthusiast", "Business-Minded Builder", "Future Software Engineer"],
+  availability: "Open to Front-End, Software Development, and AI/ML internships",
+  about: [
+    "I'm a Computer Science & Artificial Intelligence student at Helwan University, focused on Front-End Development and exploring how AI can make software more useful. I enjoy turning ideas into working interfaces and building responsive web projects with HTML, CSS, JavaScript, and Vite.",
+    "Beyond code, I care about the business side of technology. I've completed training in freelancing, entrepreneurship, business development, and digital marketing, and I'm building my skills in Python, AI/ML, cybersecurity, and networking.",
+  ],
   quickFacts: [
-    "Computer Science & AI Student",
-    "Web Developer",
-    "AI / ML Enthusiast",
-    "Cybersecurity Enthusiast",
-    "Interested in Entrepreneurship",
+    "CS & AI Student at Helwan University",
+    "Front-End / Web Developer",
+    "AI / ML Learner",
+    "Cybersecurity & Networking (NTI)",
+    "Business Development & Marketing",
+    "Open to internships",
   ],
   resumeUrl: null, // Add a CV file URL here to enable the Download CV button.
 };

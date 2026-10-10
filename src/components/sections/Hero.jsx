@@ -101,6 +101,18 @@ export default function Hero() {
           <RotatingWord words={profile.rotatingWords} />
         </motion.p>
 
+        {profile.availability && (
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.26 }}
+            className="mt-6 inline-flex items-center gap-2 rounded-full border border-border bg-bg-card px-3.5 py-1.5 text-sm text-ink-muted"
+          >
+            <span className="h-1.5 w-1.5 rounded-full bg-cyan shrink-0" aria-hidden="true" />
+            {profile.availability}
+          </motion.p>
+        )}
+
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}

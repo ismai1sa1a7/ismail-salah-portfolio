@@ -27,7 +27,13 @@ export default function About() {
         <div>
           <SectionHeading eyebrow="about-me" title="About Me" />
           <Reveal delay={0.1}>
-            <p className="mt-6 text-ink-muted leading-relaxed">{profile.about}</p>
+            <div className="mt-6 space-y-4">
+              {profile.about.map((paragraph) => (
+                <p key={paragraph} className="text-ink-muted leading-relaxed">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
           </Reveal>
 
           <Reveal delay={0.15}>

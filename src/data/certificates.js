@@ -8,10 +8,21 @@ import edraakAiEmploymentSpecialization from "../assets/certificates/edraak-ai-e
 import edraakBeyondAi from "../assets/certificates/edraak-beyond-ai.jpeg";
 import innovegypt from "../assets/certificates/innovegypt.jpeg";
 import medsparkDigitalMarketing from "../assets/certificates/medspark-digital-marketing-healthcare.jpg";
+import ntiNetworkSecurity from "../assets/certificates/nti-network-security.jpeg";
+import manaraGenerativeAi from "../assets/certificates/manara-generative-ai-in-action.png";
 
-const categories = ["ALL", "AI", "INNOVATION", "MARKETING"];
+const categories = ["ALL", "AI", "INNOVATION", "MARKETING", "CYBERSECURITY"];
 
 const certificates = [
+  {
+    id: "manara-generative-ai-in-action",
+    name: "Generative AI in Action: Case Studies and Future Outlook",
+    org: "Manara",
+    date: "9/10/2026",
+    category: "AI",
+    image: manaraGenerativeAi,
+    verifyUrl: "https://app.manara.tech/certificate/1791534187-38E2C1E740266674",
+  },
   {
     id: "medspark-digital-marketing-healthcare",
     name: "Digital Marketing For Healthcare Professionals",
@@ -19,6 +30,15 @@ const certificates = [
     date: "8/10/2026",
     category: "MARKETING",
     image: medsparkDigitalMarketing,
+    verifyUrl: null,
+  },
+  {
+    id: "nti-network-security",
+    name: "Network Security (Cybersecurity Academy, Undergraduate Level)",
+    org: "NTI (National Telecommunication Institute)",
+    date: "2026",
+    category: "CYBERSECURITY",
+    image: ntiNetworkSecurity,
     verifyUrl: null,
   },
   {
